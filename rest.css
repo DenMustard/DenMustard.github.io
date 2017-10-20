@@ -26,6 +26,16 @@ footer .row {
   align-items: center;
 }
 
+.arg {
+  border: 3px double olive;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.kursbild {
+  margin-top: 1.2em;
+}
+
 header h1 {
   font-weight: 700;
   margin: 0;
