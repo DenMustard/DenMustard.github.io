@@ -27,13 +27,39 @@ footer .row {
 }
 
 .arg {
-  border: 3px double olive;
+  border-bottom: 3px double #233d29;
   margin-top: 2em;
   margin-bottom: 2em;
+  padding-bottom: 1em;
+}
+
+#firstis {
+  margin-top: 0;
 }
 
 .kursbild {
-  margin-top: 1.2em;
+  margin-top: 1.1em;
+}
+
+.col-sm-9 .lasis {
+  font-family: "Roboto";
+  font-size: 0.8em;
+  margin-left: 0;
+  display: inline-flex;
+  white-space: nowrap;
+  
+  background-color: #b7d2ff;
+}
+
+.col-sm-9 .bokis {
+  font-family: "Roboto";
+  font-size: 0.8em;
+  margin-left: 0;
+  display: inline-flex;
+  white-space: nowrap;
+  background-color: #db9a55;
+  margin-left: 1em;
+  
 }
 
 header h1 {

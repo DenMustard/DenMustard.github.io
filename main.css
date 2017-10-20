@@ -133,6 +133,7 @@ section .row img {
   margin: 0 0 30px;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
+  margin-top: 2em;
 }
 
 footer {
