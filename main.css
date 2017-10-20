@@ -9,6 +9,10 @@ header {
   padding: 20px 0;
 }
 
+.toptop .col-sm-8 .col-sm-4 {
+  background-color: blue;
+}
+
 .col-sm-8 {
   margin-left: 0.2em;
 }
@@ -89,10 +93,12 @@ header p {
   font-size: 2em;
   text-align: center;
   box-sizing: border-box;
+  -webkit-transition: opacity 0.3s;
+  transition: 0.3s;
 }
 
 .col-sm-6:hover {
-  opacity: 0.93;
+  opacity: 0.9;
   box-sizing: border-box;
 }
 
