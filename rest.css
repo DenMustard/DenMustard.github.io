@@ -33,11 +33,11 @@ footer .row {
   padding-bottom: 1em;
 }
 
-.col-sm-9 a {
+.col-sm-9 a, .col-sm-12 a {
   color: black;
 }
 
-.col-sm-9 a:hover {
+.col-sm-9 a:hover, .col-sm-12 a:hover {
   text-decoration: none;
   color: black;
   color: #666666;
@@ -60,7 +60,7 @@ footer .row {
   background-color: #b7d2ff;
 }
 
-.col-sm-9 .bokis {
+.col-sm-9 .bokis, .col-sm-12 .bokis {
   font-family: "Roboto";
   font-size: 0.8em;
   margin-left: 0;
@@ -114,7 +114,7 @@ header p {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('https://images.unsplash.com/photo-1489379391348-c9f07b42b696?dpr=1&auto=compress,format&fit=crop&w=1050&h=&q=80&cs=tinysrgb&crop=');
+  background-image: url('https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?w=1350&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D');
   background-size: cover;
   color: #ffffff;
   height: 300px;
@@ -210,6 +210,7 @@ section .row img {
 footer {
   font-size: 1.5em;
   padding: 20px 0;
+  font-family: "Roboto";
   border-radius: 2px;
   border: 0px;
   color: rgb(0,0,0);
