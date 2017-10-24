@@ -37,6 +37,7 @@ header {
   text-decoration: none;
 }
 
+
 .col-sm-8 {
   margin-left: 0.2em;
   
@@ -95,9 +96,10 @@ header p {
   display: flex;
   align-items: center;
   background-image: url('https://images.unsplash.com/photo-1481627834876-b7833e8f5570?dpr=1&auto=compress,format&fit=crop&w=841&h=&q=80&cs=tinysrgb&crop=');
+  background-attachment: fixed;
   background-size: cover;
   color: #ffffff;
-  height: 500px;
+  height: 400px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 

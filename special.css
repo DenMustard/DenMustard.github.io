@@ -98,6 +98,7 @@ header p {
   align-items: center;
   background-image: url('https://images.unsplash.com/photo-1461360276940-6603a02afc1c?dpr=1&auto=compress,format&fit=crop&w=1053&h=&q=80&cs=tinysrgb&crop=');
   background-size: cover;
+  background-attachment: fixed;
   color: #ffffff;
   height: 300px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
