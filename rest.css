@@ -1,3 +1,9 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -28,10 +34,14 @@ footer .row {
 }
 
 .arg {
-  border-bottom: 3px double #233d29;
+  border-bottom: 3px double #444133;
   margin-top: 2em;
   margin-bottom: 2em;
   padding-bottom: 1em;
+}
+
+.slut {
+  border-bottom: none;
 }
 
 .col-sm-9 a, .col-sm-12 a {
@@ -210,20 +220,24 @@ section .row img {
 
 footer {
   font-size: 1.5em;
-  padding: 20px 0;
   font-family: "Roboto";
+  padding: 20px 0;
   border-radius: 2px;
-  border: 0px;
-  color: rgb(0,0,0);
+  color: white;
   text-shadow: none;
-  background-color: #FFF;
+  background-color: #444133;
   margin-top: 3em;
+  display: flex;
+  background-size: cover;
 }
 
 footer .col-sm-8 {
   display: flex;
   justify-content: flex-end;
+  float: right;
 }
+
+
 
 footer ul {
   list-style: none;
