@@ -34,7 +34,7 @@ footer .row {
 }
 
 .arg {
-  border-bottom: 3px double #444133;
+  border-bottom: 3px double rgb(114, 76, 63);
   margin-top: 2em;
   margin-bottom: 2em;
   padding-bottom: 1em;
@@ -218,6 +218,21 @@ section .row img {
   font-weight: 700;
 }
 
+#lank {
+    font-family: "Roboto";
+    font-size: 2.5em;
+    text-align: center;
+    background-color: rgb(117, 85, 79) ;
+    color: white !important;
+    text-decoration: none;
+}
+
+#lank:hover {
+  text-decoration: none;
+  color: white;
+  opacity: 0.9;
+}
+
 footer {
   font-size: 1.5em;
   font-family: "Roboto";
@@ -225,7 +240,7 @@ footer {
   border-radius: 2px;
   color: white;
   text-shadow: none;
-  background-color: #444133;
+  background-color: rgb(114, 76, 63);
   margin-top: 3em;
   display: flex;
   background-size: cover;

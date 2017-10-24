@@ -131,7 +131,7 @@ header p {
     font-family: "Roboto";
     font-size: 2em;
     text-align: center;
-    border-bottom: 3px double #233d29;
+    border-bottom: 3px double rgb(114, 76, 63);
     margin-bottom: 3em;
 
 }
@@ -177,7 +177,7 @@ footer {
   border-radius: 2px;
   color: white;
   text-shadow: none;
-  background-color: #444133;
+  background-color: rgb(114, 76, 63);
   margin-top: 3em;
   display: flex;
   background-size: cover;
