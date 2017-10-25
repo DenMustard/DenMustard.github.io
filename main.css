@@ -60,27 +60,35 @@ header h1 {
 }
 
 nav .btn-nav {
-  font-family: "Roboto";
-  font-size: 1.8em;
+  font-family: "Georgia";
+  font-size: 1.2em;
   margin-left: 0;
   display: inline-flex;
   white-space: nowrap;
   -webkit-transition: color 0.3s;
   transition: 0.3s;
+  box-sizing: content-box;
+  margin-bottom: 4px;
+  margin-left: 4px;
 }
 
 nav .btn-nav:hover {
   color: rgb(0,0,0);
   opacity: 1 !important;
+  margin-bottom: 0px;
+  border-bottom: 4px solid black;
 }
 
 nav a:hover {
   text-decoration: none;
 }
 
+
+
 header nav {
   display: flex;
   justify-content: flex-end;
+
 }
 
 .kurs:hover {
@@ -116,7 +124,7 @@ header p {
 }
 
 .col-sm-6 {
-  font-family: "Roboto";
+  font-family: "Georgia";
   color: black;
   font-size: 2em;
   text-align: center;
@@ -150,14 +158,14 @@ section .row img {
 
 #secondary:hover {
   
-  color: black;
+  border: 1px solid black;
 }
 
 #secondary {
   background-color: #b7d2ff;
-  color: gray;
+  color: black;
   margin: 0 0 30px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Georgia", sans-serif;
   margin-top: 2em;
   font-size: 1.5em;
   
@@ -165,7 +173,7 @@ section .row img {
 
 footer {
   font-size: 1.5em;
-  font-family: "Roboto";
+  font-family: "Georgia";
   padding: 20px 0;
   border-radius: 2px;
   color: white;

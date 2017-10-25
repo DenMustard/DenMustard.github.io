@@ -64,18 +64,23 @@ header h1 {
 }
 
 nav .btn-nav {
-  font-family: "Roboto";
-  font-size: 1.8em;
+  font-family: "Georgia";
+  font-size: 1.2em;
   margin-left: 0;
   display: inline-flex;
   white-space: nowrap;
   -webkit-transition: color 0.3s;
   transition: 0.3s;
+  margin-bottom: 4px;
+  margin-left: 4px;
 }
+
 
 nav .btn-nav:hover {
   color: rgb(0,0,0);
   opacity: 1 !important;
+  margin-bottom: 0px;
+  border-bottom: 4px solid black;
 
 }
 
