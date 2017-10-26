@@ -78,7 +78,11 @@ footer .row {
   white-space: nowrap;
   background-color: #db9a55;
   margin-left: 1em;
+
   
+}
+
+
 }
 
 header h1 {
@@ -172,7 +176,7 @@ header p {
 
 .col-sm-9 {
 	  font-family: "Roboto";
-	  font-size: 2em;
+	  font-size: 1.9em;
 	  text-align: left;
 
 }
@@ -183,6 +187,20 @@ header p {
     text-align: center;
 }
 
+.argtext {
+  font-family: "Roboto";
+  font-size: 1.8em;
+  text-align: left;
+  position: relative left;
+  left:28%;
+}
+
+.gladtext {
+  font-family: "Roboto";
+  font-size: 1.8em;
+  text-align: left;
+
+}
 
 .col-sm-6:hover {
 	opacity: 0.93;

@@ -136,14 +136,16 @@ header p {
 .col-sm-12 {
     font-family: "Roboto";
     font-size: 2em;
-    text-align: center;
-    border-bottom: 3px double rgb(114, 76, 63);
-    margin-bottom: 3em;
+    border-top: 3px double rgb(114, 76, 63);
+    padding-top: 1em;
+}
 
+h2 {
+  font-weight: bold;
 }
 
 section .row img {
-  margin: 0 0 30px;
+  margin: 0 0 4em;
   width: 100%;
 }
 
