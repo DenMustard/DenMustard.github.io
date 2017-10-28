@@ -44,11 +44,11 @@ footer .row {
   border-bottom: none;
 }
 
-.col-sm-9 a, .col-sm-12 a {
+.col-sm-9 a, .col-sm-12 a .lasis, .col-sm-12 a .bokis {
   color: black;
 }
 
-.col-sm-9 a:hover, .col-sm-12 a:hover {
+.col-sm-9 a:hover, .col-sm-12 a .bokis:hover, .col-sm-12 a .lasis:hover {
   text-decoration: none;
   color: black;
   color: #666666;
@@ -162,6 +162,7 @@ header p {
   font-size: 3em;
   font-weight: normal;
 }
+
 
 .half-title {
   white-space: nowrap;
@@ -363,6 +364,11 @@ input.invalid {
 
 .bokatext {
   text-align: left;
+}
+
+.bokatext h3 {
+  border-top: 3px double rgb(114, 76, 63) ;
+  padding-top: 1em;
 }
 
 footer {
