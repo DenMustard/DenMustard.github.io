@@ -54,6 +54,12 @@ footer .row {
   color: #666666;
 }
 
+.col-sm-12 a:hover {
+  text-decoration: none;
+  color: black;
+  
+}
+
 #firstis {
   margin-top: 0;
 }
