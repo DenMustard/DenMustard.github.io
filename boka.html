@@ -47,32 +47,32 @@
   <section class="container">
     <div class="row">
       <div class="col-sm-12 bokatext">
-<form id="regForm" >
+<form id="regForm" action="mailto:tankestallaren@gmail.se" method="post" enctype="text/plain">
 
 <h1>Boka en kurs</h1><br>
 
 <!-- One "tab" for each step in the form: -->
 <div class="tab">Namn:
-  <p><input placeholder="Förnamn..." oninput="this.className = ''"></p>
-  <p><input placeholder="Efternamn..." oninput="this.className = ''"></p>
-  <p><input placeholder="Organisation..." oninput="this.className = ''"></p>
-</div>
+  <p><input type="text" name="Namn " placeholder="Förnamn..." oninput="this.className = ''"></p>
+  <p><input type="text" name="Efternamn " placeholder="Efternamn..." oninput="this.className = ''"></p>
+  <p><input type="text" name="Organisation " placeholder="Organisation..." oninput="this.className = ''"></p>
+</div><br>
 
 <div class="tab">Kontaktinformation:
-  <p><input placeholder="E-post..." oninput="this.className = ''"></p>
-  <p><input placeholder="Telefonnnummer..." oninput="this.className = ''"></p>
-</div>
+  <p><input type="text" name="E-post " placeholder="E-post..." oninput="this.className = ''"></p>
+  <p><input type="text" name="Tel " placeholder="Telefonnnummer..." oninput="this.className = ''"></p>
+</div><br>
 
 <div class="tab">Vilket datum du vill boka:
-  <p><input placeholder="dd" oninput="this.className = ''"></p>
-  <p><input placeholder="mm" oninput="this.className = ''"></p>
-  <p><input placeholder="åååå" oninput="this.className = ''"></p>
-</div>
+  <p><input type="text" name="Datum" placeholder="dd/mm/åååå" oninput="this.className = ''"></p>
+</div><br>
 
 <div class="tab">Vilken kurs du vill boka:
-  <p><input placeholder="Ex: 'Argumentationsanalys'..." oninput="this.className = ''"></p>
+  <p><input type="text" name="Kurs" placeholder="Ex: 'Argumentationsanalys'..." oninput="this.className = ''"></p>
 </div><br>
-<button class="btn" style="position: relative; left:40%;">Skicka</button>
+<div class="tab" style="text-align:center">
+<input type="submit" style="max-width: 4em;" value="Skicka"></input>
+</div>
 </form>
     </div>
 
