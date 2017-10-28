@@ -1,6 +1,6 @@
 html, body {
     max-width: 100%;
-    overflow-x: hidden;
+    
 }
 
 
@@ -57,7 +57,7 @@ footer .row {
 .col-sm-12 a:hover {
   text-decoration: none;
   color: black;
-  
+
 }
 
 #firstis {
