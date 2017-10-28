@@ -46,19 +46,34 @@
   </section>
   <section class="container">
     <div class="row">
-      <div class="col-sm-12">
-        <h1>Boka kurs via tankestallaren@gmail.com:</h1><br /><br />
+      <div class="col-sm-12 bokatext">
+<form id="regForm" >
 
-<form action="mailto:tankestallaren@gmail.com" method="post" enctype="text/plain">
-Ditt namn och företag:<br /><br />
-<input type="text" name="2"><br /><br />
-Vilken kurs du vill boka och när:<br /><br />
-<input type="text" name="3" size="50"><br><br>
-<input type="submit" value="Skicka">
-<br><br><br><br><br>
+<h1>Boka en kurs</h1><br>
+
+<!-- One "tab" for each step in the form: -->
+<div class="tab">Namn:
+  <p><input placeholder="Förnamn..." oninput="this.className = ''"></p>
+  <p><input placeholder="Efternamn..." oninput="this.className = ''"></p>
+  <p><input placeholder="Organisation..." oninput="this.className = ''"></p>
+</div>
+
+<div class="tab">Kontaktinformation:
+  <p><input placeholder="E-post..." oninput="this.className = ''"></p>
+  <p><input placeholder="Telefonnnummer..." oninput="this.className = ''"></p>
+</div>
+
+<div class="tab">Vilket datum du vill boka:
+  <p><input placeholder="dd" oninput="this.className = ''"></p>
+  <p><input placeholder="mm" oninput="this.className = ''"></p>
+  <p><input placeholder="åååå" oninput="this.className = ''"></p>
+</div>
+
+<div class="tab">Vilken kurs du vill boka:
+  <p><input placeholder="Ex: 'Argumentationsanalys'..." oninput="this.className = ''"></p>
+</div><br>
+<button class="btn" style="position: relative; left:40%;">Skicka</button>
 </form>
-      </div>
-
     </div>
 
   </section>

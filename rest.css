@@ -267,9 +267,6 @@ section .row img {
   
   font-family: "Georgia";
   position:relative;
-
-  
-  
 }
 
 button:focus {outline:0;}
@@ -279,9 +276,6 @@ button:focus {outline:0;}
     display: inline-block;
     margin-bottom: -2px;
     font-family: "Georgia";
-
-
-    
 }
 
 .dropdown-content {
@@ -322,6 +316,53 @@ button:focus {outline:0;}
     border-bottom: 4px solid black;
     box-sizing: content-box;
     margin-bottom: 0;
+}
+
+#regForm {
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 40px;
+  width: 50%;
+  min-width: 300px;
+}
+
+input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-family: "Roboto";
+  border: 1px solid #aaaaaa;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ffdddd;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none; 
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+/* Mark the active step: */
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #4CAF50;
+}
+
+.bokatext {
+  text-align: left;
 }
 
 footer {
