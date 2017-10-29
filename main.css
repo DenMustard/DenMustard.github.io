@@ -11,7 +11,7 @@ html {
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  margin-bottom: 4em;
+  
 
 }
 
@@ -254,6 +254,7 @@ footer {
   position: absolute;
   bottom: -8em;
   width: 100%;
+  margin-bottom: 0;
 }
 
 footer .col-sm-8 {
