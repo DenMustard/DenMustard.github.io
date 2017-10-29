@@ -252,7 +252,7 @@ footer {
   display: flex;
   background-size: cover;
   position: absolute;
-  bottom: -8em;
+  bottom: -6em;
   width: 100%;
 }
 
