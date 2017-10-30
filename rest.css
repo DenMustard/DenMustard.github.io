@@ -3,6 +3,10 @@ html, body {
     min-width: 49em;
 }
 
+html {
+  position:relative;
+  min-height: 100%;
+}
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -390,11 +394,16 @@ footer {
   padding: 20px 0;
   border-radius: 2px;
   color: white;
+  height: 4em;
   text-shadow: none;
   background-color: rgb(114, 76, 63);
   margin-top: 3em;
   display: flex;
   background-size: cover;
+  position: absolute;
+  bottom: -8em;
+  width: 100%;
+  margin-bottom: 0;
 }
 
 footer .col-sm-8 {
