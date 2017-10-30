@@ -17,7 +17,7 @@ header {
 }
 
 .col-sm-8 {
-	margin-left: 0.2em;
+  margin-left: 0.2em;
   
 }
 
@@ -98,8 +98,8 @@ header h1 {
 }
 
 #bulb {
-	margin-top:0.2em;
-	margin-bottom: 0.2em;
+  margin-top:0.2em;
+  margin-bottom: 0.2em;
 }
 
 nav .btn-nav {
@@ -184,9 +184,9 @@ header p {
 }
 
 .col-sm-9 {
-	  font-family: "Roboto";
-	  font-size: 1.9em;
-	  text-align: left;
+    font-family: "Roboto";
+    font-size: 1.9em;
+    text-align: left;
 
 }
 
@@ -212,8 +212,8 @@ header p {
 }
 
 .col-sm-6:hover {
-	opacity: 0.93;
-	box-sizing: border-box;
+  opacity: 0.93;
+  box-sizing: border-box;
 }
 
 
@@ -235,7 +235,7 @@ section .row img {
 }
 
 .btn-nav:hover {
-	color: rgb(140,140,140);
+  color: rgb(140,140,140);
 }
 
 .btn-secondary:hover {
@@ -283,7 +283,7 @@ button:focus {outline:0;}
     position: relative;
     display: inline-block;
     margin-bottom: -2px;
-    font-family: "Georgia";
+    font-family: "Roboto";
 }
 
 .dropdown-content {
@@ -295,7 +295,7 @@ button:focus {outline:0;}
     z-index: 1;
     border-top: 3px solid black;
     margin-top: 0.01em;
-    font-family: "Georgia";
+    font-family: "Roboto";
 
 }
 
@@ -305,7 +305,7 @@ button:focus {outline:0;}
     text-decoration: none;
     display: flex;
     box-sizing: content-box;
-    font-family: "Georgia";
+    font-family: "Roboto";
 }
 
 .dropdown-content a:hover {background-color: #f1f1f1}

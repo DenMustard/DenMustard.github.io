@@ -39,7 +39,7 @@ header {
   text-decoration: none;
 }
 
-.col-sm-6 a:hover {
+.col-sm-4 a:hover {
   text-decoration: none;
 }
 
@@ -126,19 +126,7 @@ header p {
   color: #fff;
 }
 
-.col-sm-6 {
-  font-family: "Georgia";
-  color: black;
-  font-size: 2em;
-  text-align: center;
-  box-sizing: border-box;
-  -webkit-transition: opacity 0.3s;
-  transition: 0.3s;
-}
 
-.col-sm-6:hover {
-  opacity: 0.9;
-}
 
 
 section .row img {
@@ -155,7 +143,7 @@ section .row img {
 }
 
 .btn-nav:hover {
-	color: rgb(140,140,140);
+  color: rgb(140,140,140);
 }
 
 #secondary:hover {
@@ -238,6 +226,26 @@ button:focus {outline:0;}
     box-sizing: content-box;
     margin-bottom: 0;
 }
+
+#main {
+  font-family: "Georgia";
+  color: black;
+  font-size: 2em;
+  text-align: center;
+
+
+  -webkit-transition: opacity 0.3s;
+  transition: 0.3s;
+}
+
+#main:hover {
+  opacity: 0.9;
+}
+
+.second-row {
+
+}
+
 
 footer {
   font-size: 1.5em;
