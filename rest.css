@@ -69,7 +69,7 @@ footer .row {
   margin-top: 0.9em;
 }
 
-.col-sm-9 .lasis {
+.col-sm-9 .lasis, .col-sm-12 .lasis {
   font-family: "Roboto";
   font-size: 0.8em;
   margin-left: 0;
@@ -266,6 +266,12 @@ section .row img {
   opacity: 0.9;
 }
 
+#pedagogik {
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 1.9em;
+}
+
 .dropbtn {
   
   font-size: 1.2em;
@@ -277,7 +283,7 @@ section .row img {
   position:relative;
 }
 
-button:focus {outline:0;}
+p:focus {outline:0;}
 
 .dropdown {
     position: relative;
