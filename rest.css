@@ -20,7 +20,9 @@ header {
   padding: 20px 0;
 }
 
-#success_message{ display: none;}
+#success_message { 
+  display: none;
+}
 
 .col-sm-8 {
   margin-left: 0.2em;
@@ -29,7 +31,7 @@ header {
 
 .col-sm-3 {
     font-family: "Roboto";
-    font-size: 2em;
+    font-size: 0.0001em;
     text-align: center;
 
 }
@@ -103,6 +105,10 @@ header h1 {
   margin: 0;
 }
 
+#pedagogik h1, #pedagogik h2 {
+  font-size: 1em;
+}
+
 #bulb {
   margin-top:0.2em;
   margin-bottom: 0.2em;
@@ -172,7 +178,7 @@ header p {
   display: flex;
   white-space: nowrap;
   font-family: "Roboto", sans-serif;
-  font-size: 3em;
+  font-size: 2em;
   font-weight: normal;
 }
 
@@ -191,14 +197,14 @@ header p {
 
 .col-sm-9 {
     font-family: "Roboto";
-    font-size: 1.9em;
+    font-size: 1.8em;
     text-align: left;
 
 }
 
 .col-sm-12 {
     font-family: "Roboto";
-    font-size: 2em;
+    font-size: 1.8em;
     text-align: center;
 }
 
@@ -259,7 +265,7 @@ section .row img {
 
 #lank {
     font-family: "Georgia";
-    font-size: 2.5em;
+    font-size: 1.8em;
     text-align: center;
     
     color: white !important;
@@ -275,7 +281,7 @@ section .row img {
 #pedagogik {
   text-align: center;
   font-family: "Roboto";
-  font-size: 1.9em;
+  font-size: 1.8em;
 }
 
 .dropbtn {
@@ -389,6 +395,8 @@ input.invalid {
   border-top: 3px double rgb(114, 76, 63) ;
   padding-top: 1em;
 }
+
+
 
 footer {
   font-size: 1.5em;
