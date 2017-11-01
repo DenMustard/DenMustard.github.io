@@ -20,6 +20,8 @@ header {
   padding: 20px 0;
 }
 
+#success_message{ display: none;}
+
 .col-sm-8 {
   margin-left: 0.2em;
   
