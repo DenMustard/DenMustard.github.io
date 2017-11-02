@@ -208,6 +208,12 @@ header p {
     text-align: center;
 }
 
+.col-sm-12 h1 {
+    font-family: "Roboto";
+    font-size: 1.4em;
+    text-align: center;
+}
+
 .argtext {
   font-family: "Roboto";
   font-size: 1.8em;
