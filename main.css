@@ -146,19 +146,29 @@ section .row img {
   color: rgb(140,140,140);
 }
 
-#secondary:hover {
-  
-  border: 1px solid black;
+.col-sm-12 a .lasis {
+  font-family: "Roboto";
+  font-size: 1.5em;
+  margin-top: 1.5em;
+  color: black;
+  margin-left: 0;
+  display: inline-flex;
+  white-space: nowrap;
+  background-color: #b7d2ff;
 }
 
-#secondary {
-  background-color: #b7d2ff;
-  color: black;
-  margin: 0 0 30px;
-  font-family: "Roboto", sans-serif;
-  margin-top: 2em;
-  font-size: 1.5em;
-  
+.lasis:hover {
+  text-decoration: none;
+  color: #666 !important;
+}
+
+
+
+.col-sm-12 a:hover {
+  text-decoration: none;
+  color: #666 !important;
+ 
+
 }
 
 .dropbtn {
