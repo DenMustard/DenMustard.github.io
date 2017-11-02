@@ -7,7 +7,7 @@
             validating: 'glyphicon glyphicon-refresh'
         },
         fields: {
-            First_Name: {
+            first_name: {
                 validators: {
                         stringLength: {
                         min: 2,
@@ -18,7 +18,7 @@
                     }
                 }
             },
-             Efternamn: {
+             efternamn: {
                 validators: {
                      stringLength: {
                         min: 2,
@@ -50,7 +50,7 @@
                     }
                 }
             },
-            Telefonnummer: {
+            phone: {
                 validators: {
                     notEmpty: {
                         message: 'Vänligen fyll i ditt telefonnummer'
@@ -61,7 +61,7 @@
                     }
                 }
             },
-            Lokal-adress: {
+            lokaladress: {
                 validators: {
                      stringLength: {
                         min: 2,
@@ -70,7 +70,7 @@
                     },
                 }
             },
-            Datum: {
+            datum: {
                 validators: {
                      stringLength: {
                         min: 8,
@@ -79,7 +79,7 @@
                     },
                 }
             },
-            Kurs: {
+            kurs: {
                 validators: {
                     notEmpty: {
                         message: 'Vänligen välj den kurs du vill boka'
@@ -97,7 +97,7 @@
                     }
                 }
             },
-            Kommentar: {
+            kommentar: {
                 validators: {
                       stringLength: {
                         min: 1,
