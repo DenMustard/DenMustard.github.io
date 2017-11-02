@@ -11,9 +11,10 @@
                 validators: {
                         stringLength: {
                         min: 2,
+                        message:'Vänligen fyll i ditt förnamn'
                     },
                         notEmpty: {
-                        message: 'Please supply your first name'
+                        message: 'Vänligen fyll i ditt förnamn'
                     }
                 }
             },
@@ -21,57 +22,67 @@
                 validators: {
                      stringLength: {
                         min: 2,
+                        message:'Vänligen fyll i ditt efternamn'
                     },
                     notEmpty: {
-                        message: 'Please supply your last name'
+                        message: 'Vänligen fyll i ditt efternamn'
+                    }
+                }
+            },
+             organisation: {
+                validators: {
+                     stringLength: {
+                        min: 2,
+                        message:'Vänligen fyll i vilken organisation du representerar'
+                    },
+                    notEmpty: {
+                        message: 'Vänligen fyll i vilken organisation du representerar'
                     }
                 }
             },
             email: {
                 validators: {
                     notEmpty: {
-                        message: 'Please supply your email address'
+                        message: 'Vänligen fyll i din e-postadress'
                     },
                     emailAddress: {
-                        message: 'Please supply a valid email address'
+                        message: 'Vänligen fyll i en giltig e-postadress'
                     }
                 }
             },
             phone: {
                 validators: {
                     notEmpty: {
-                        message: 'Please supply your phone number'
+                        message: 'Vänligen fyll i ditt telefonnummer'
                     },
                     phone: {
-                        country: 'US',
-                        message: 'Please supply a vaild phone number with area code'
+                        country: 'SE',
+                        message: 'Vänligen fyll i ett giltigt telefonnummer'
                     }
                 }
             },
             address: {
                 validators: {
                      stringLength: {
-                        min: 8,
+                        min: 2,
+                        max: 100,
+                        message: 'Vänligen fyll i en giltig adress'
                     },
-                    notEmpty: {
-                        message: 'Please supply your street address'
-                    }
                 }
             },
-            city: {
+            date: {
                 validators: {
                      stringLength: {
-                        min: 4,
+                        min: 8,
+                        max: 10,
+                        message: 'Vänligen fyll i ett giltigt datum'
                     },
-                    notEmpty: {
-                        message: 'Please supply your city'
-                    }
                 }
             },
             state: {
                 validators: {
                     notEmpty: {
-                        message: 'Please select your state'
+                        message: 'Vänligen välj den kurs du vill boka'
                     }
                 }
             },
@@ -89,13 +100,10 @@
             comment: {
                 validators: {
                       stringLength: {
-                        min: 10,
+                        min: 1,
                         max: 200,
-                        message:'Please enter at least 10 characters and no more than 200'
+                        message:'Vänligen skriv inte fler än 200 tecken'
                     },
-                    notEmpty: {
-                        message: 'Please supply a description of your project'
-                    }
                     }
                 }
             }

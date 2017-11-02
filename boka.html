@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">s
     <link rel="stylesheet" type="text/css" href="rest.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
     <title>Boka - Tankestallaren
@@ -8,13 +10,16 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
     <link rel="icon" href="https://i.imgur.com/VvjR3im.jpg?3">
 
-    <meta charset="UTF-8">
+   
   <script src="https://s.codepen.io/assets/libs/modernizr.js" type="text/javascript"></script>
   
   <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
 <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css'>
 <link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.0/css/bootstrapValidator.min.css'>
-
+    <!-- Bootstrap Validator css -->
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.0/css/bootstrapValidator.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.4.5/js/bootstrapvalidator.min.js"></script>
       <link rel="stylesheet" href="css/rest.css">
 
   </head>
@@ -60,7 +65,7 @@
   <section class="container">
   <div class="container">
 
-    <form class="well form-horizontal" action=" " method="post"  id="contact_form">
+    <form class="well form-horizontal" action="boka.php" method="post"  id="contact_form">
 <fieldset>
 
 <!-- Form Name -->
@@ -69,11 +74,11 @@
 <!-- Text input-->
 
 <div class="form-group">
-  <label class="col-md-4 control-label">Förnamn</label>  
+  <label class="col-md-4 control-label" for="first_name">Förnamn *</label>  
   <div class="col-md-4 inputGroupContainer">
   <div class="input-group">
   <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-  <input  name="first_name" placeholder="Förnamn" class="form-control"  type="text">
+  <input  id="first_name" name="first_name" placeholder="Förnamn" class="form-control"  type="text">
     </div>
   </div>
 </div>
@@ -81,11 +86,11 @@
 <!-- Text input-->
 
 <div class="form-group">
-  <label class="col-md-4 control-label" >Efternamn</label> 
+  <label class="col-md-4 control-label" for="last_name">Efternamn *</label> 
     <div class="col-md-4 inputGroupContainer">
     <div class="input-group">
   <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-  <input name="last_name" placeholder="Efternamn" class="form-control"  type="text">
+  <input name="last_name" id="last_name" placeholder="Efternamn" class="form-control"  type="text">
     </div>
   </div>
 </div>
@@ -93,11 +98,11 @@
 <!-- Text input-->
 
 <div class="form-group">
-  <label class="col-md-4 control-label">Organisation</label> 
+  <label class="col-md-4 control-label" for="organisation">Organisation *</label> 
     <div class="col-md-4 inputGroupContainer">
     <div class="input-group">
   <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-  <input name="last_name" placeholder="Organisation" class="form-control"  type="text">
+  <input name="organisation" id="organisation" placeholder="Organisation" class="form-control"  type="text">
     </div>
   </div>
 </div>
@@ -105,11 +110,11 @@
 
 <!-- Text input-->
        <div class="form-group">
-  <label class="col-md-4 control-label">E-post</label>  
+  <label class="col-md-4 control-label" for="email">E-post *</label>  
     <div class="col-md-4 inputGroupContainer">
     <div class="input-group">
         <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-  <input name="email" placeholder="E-postadress" class="form-control"  type="text">
+  <input name="email" id="email" placeholder="E-postadress" class="form-control"  type="text">
     </div>
   </div>
 </div>
@@ -118,11 +123,11 @@
 <!-- Text input-->
        
 <div class="form-group">
-  <label class="col-md-4 control-label">Telefon #</label>  
+  <label class="col-md-4 control-label" for="phone">Telefonnummer *</label>  
     <div class="col-md-4 inputGroupContainer">
     <div class="input-group">
         <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
-  <input name="phone" placeholder="Telefonnummer" class="form-control" type="text">
+  <input name="phone" id="phone" placeholder="Telefonnummer" class="form-control" type="text">
     </div>
   </div>
 </div>
@@ -130,23 +135,23 @@
 <!-- Text input-->
       
 <div class="form-group">
-  <label class="col-md-4 control-label">Lokal</label>  
+  <label class="col-md-4 control-label" for="address">Lokal</label>  
     <div class="col-md-4 inputGroupContainer">
     <div class="input-group">
         <span class="input-group-addon"><i class="glyphicon glyphicon-map-marker"></i></span>
-  <input name="address" placeholder="Adress" class="form-control" type="text">
+  <input name="address" id="address" placeholder="Adress" class="form-control" type="text">
     </div>
   </div>
 </div>
 
    
 <div class="form-group"> 
-  <label class="col-md-4 control-label">Kurs</label>
+  <label class="col-md-4 control-label" for="state">Kurs *</label>
     <div class="col-md-4 selectContainer">
     <div class="input-group">
         <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
-    <select name="state" class="form-control selectpicker" >
-      <option value=" " >Välj kursen du vill boka</option>
+    <select name="state" id="state" class="form-control selectpicker" >
+      <option value=" " >Välj den kurs du vill boka</option>
       <option>Argumentationsanalys</option>
       <option>Etik</option>
       <option >Filosofiska rum</option>
@@ -161,11 +166,11 @@
 <!-- Text input-->
       
 <div class="form-group">
-  <label class="col-md-4 control-label">Datum</label>  
+  <label class="col-md-4 control-label" for="date">Datum</label>  
     <div class="col-md-4 inputGroupContainer">
     <div class="input-group">
         <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
-  <input name="address" placeholder="dd/mm/åååå" class="form-control" type="text" id="datepicker" />
+  <input name="date" id="date" placeholder="dd/mm/åååå" class="form-control" type="date" id="datepicker" />
     </div>
   </div>
 </div>
@@ -173,11 +178,11 @@
 
   
 <div class="form-group">
-  <label class="col-md-4 control-label">Övrigt</label>
+  <label class="col-md-4 control-label" for="comment">Övrigt</label>
     <div class="col-md-4 inputGroupContainer">
     <div class="input-group">
         <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
-          <textarea class="form-control" name="comment" placeholder="Övrig information"></textarea>
+          <textarea class="form-control" name="comment" id="comment" placeholder="Övrig information"></textarea>
   </div>
   </div>
 </div>
@@ -189,7 +194,7 @@
 <div class="form-group">
   <label class="col-md-4 control-label"></label>
   <div class="col-md-4">
-    <button type="submit" class="btn btn-warning" >Skicka <span class="glyphicon glyphicon-send"></span></button>
+    <button type="submit" class="btn btn-success" >Skicka <span class="glyphicon glyphicon-send"></span></button>
   </div>
 </div>
 
