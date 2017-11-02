@@ -1,3 +1,15 @@
+function validate(evt) {
+  var theEvent = evt || window.event;
+  var key = theEvent.keyCode || theEvent.which;
+  key = String.fromCharCode( key );
+  var regex = /[0-9]|\./;
+  if( !regex.test(key) ) {
+    theEvent.returnValue = false;
+    if(theEvent.preventDefault) theEvent.preventDefault();
+  }
+}
+
+
   $(document).ready(function() {
     $('#contact_form').bootstrapValidator({
         // To use feedback icons, ensure that you use Bootstrap v3.1.0 or later
@@ -50,14 +62,15 @@
                     }
                 }
             },
-            phone: {
+             phone: {
                 validators: {
+                     stringLength: {
+                        min: 9,
+                        max: 10,
+                        message:'Vänligen fyll i ett giltigt telefonnummer'
+                    },
                     notEmpty: {
                         message: 'Vänligen fyll i ditt telefonnummer'
-                    },
-                    phone: {
-                        country: 'SE',
-                        message: 'Vänligen fyll i ett giltigt telefonnummer'
                     }
                 }
             },
