@@ -9,9 +9,7 @@ function validate(evt) {
   }
 }
 
-$(window).scroll(function(){
-    $(".text-center").css("opacity", 1 - $(window).scrollTop() / 250);
-  });
+
 
 
   $(document).ready(function() {
@@ -99,7 +97,7 @@ $(window).scroll(function(){
             kurs: {
                 validators: {
                     notEmpty: {
-                        message: 'Vänligen välj den kurs du vill boka'
+                        message: 'Vänligen välj den kurs du är intresserad i'
                     }
                 }
             },
