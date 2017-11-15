@@ -43,7 +43,7 @@ footer .row {
 }
 
 .arg {
-  border-bottom: 3px double rgb(114, 76, 63);
+  border-bottom: 3px double #8080ff;
   margin-top: 2em;
   margin-bottom: 2em;
   padding-bottom: 1em;
@@ -154,7 +154,7 @@ header p {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?w=1350&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D');
+  background-image: url('https://images.unsplash.com/photo-1437435409766-a478cc6da81a?auto=format&fit=crop&w=1267&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D');
   background-size: cover;
   background-attachment: fixed;
   color: #ffffff;
@@ -412,7 +412,7 @@ footer {
   color: white;
   height: 4em;
   text-shadow: none;
-  background-color: rgb(114, 76, 63);
+  background-color: #8080ff;
   margin-top: 3em;
   display: flex;
   background-size: cover;
