@@ -80,10 +80,23 @@ footer .row {
 .col-sm-9 .lasis, .col-sm-12 .lasis {
   font-family: "Roboto";
   font-size: 0.8em;
-  margin-left: 0;
+  margin-left: 0.5em;
+  margin-right: 0.6em;
   display: inline-flex;
   white-space: nowrap;
-  background-color: #b7d2ff;
+  color: #4286f4;
+  
+}
+.col-sm-9 .lasis:hover, .col-sm-12 .lasis:hover {
+  font-family: "Roboto";
+  font-size: 0.8em;
+  margin-left: 0.5em;
+  margin-right: 0.6em;
+  display: inline-flex;
+  white-space: nowrap;
+  color: #4286f4;
+  opacity: 0.7;
+  
 }
 
 .col-sm-9 .bokis, .col-sm-12 .bokis {
@@ -91,8 +104,19 @@ footer .row {
   font-size: 0.8em;
   display: inline-flex;
   white-space: nowrap;
-  background-color: #db9a55;
-  margin-left: 1em;
+  color: brown;
+  margin-left: 0.4em;
+
+  
+}
+.col-sm-9 .bokis:hover, .col-sm-12 .bokis:hover {
+  font-family: "Roboto";
+  font-size: 0.8em;
+  display: inline-flex;
+  white-space: nowrap;
+  color: brown;
+  margin-left: 0.4em;
+  opacity:0.7;
 
   
 }
