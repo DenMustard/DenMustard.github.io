@@ -103,7 +103,7 @@ header p {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('https://images.unsplash.com/photo-1437435409766-a478cc6da81a?auto=format&fit=crop&w=1267&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D');
+  background-image: url('https://i.imgur.com/Sv0smhC.jpg');
   background-size: cover;
   background-attachment: fixed;
   color: #ffffff;
@@ -138,7 +138,7 @@ header p {
 .col-sm-12 {
     font-family: "Roboto";
     font-size: 1.8em;
-    border-top: 3px double #8080ff;
+    border-top: 3px double #742e25;
     padding-top: 1em;
 }
 
@@ -254,7 +254,7 @@ footer {
   border-radius: 2px;
   color: white;
   text-shadow: none;
-  background-color: #8080ff;
+  background-color: #742e25;
   margin-top: 3em;
   display: flex;
   background-size: cover;

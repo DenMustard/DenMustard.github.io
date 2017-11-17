@@ -106,7 +106,7 @@ header p {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('https://images.unsplash.com/photo-1437435409766-a478cc6da81a?auto=format&fit=crop&w=1267&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D');
+  background-image: url('https://images.unsplash.com/photo-1479142506502-19b3a3b7ff33?auto=format&fit=crop&w=1350&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D');
   background-attachment: fixed;
   background-size: cover;
   color: #ffffff;
@@ -266,7 +266,7 @@ footer {
   color: white;
   height: 4em;
   text-shadow: none;
-  background-color: #8080ff;
+  background-color: #742e25;
   margin-top: 3em;
   display: flex;
   background-size: cover;
