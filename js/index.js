@@ -1,3 +1,15 @@
+$(document).ready(function(){
+  $('.click-popup-call-contact').on('click', function(){
+    $('.popup-call-contact').toggleClass('popup-call-contact-show');
+  });
+});
+
+$(document).ready(function(){
+  $('.close-contact').on('click', function(){
+    $('.popup-call-contact').toggleClass('popup-call-contact-show');
+  });
+});
+
 function validate(evt) {
   var theEvent = evt || window.event;
   var key = theEvent.keyCode || theEvent.which;
@@ -142,3 +154,4 @@ function validate(evt) {
             }, 'json');
         });
 });
+

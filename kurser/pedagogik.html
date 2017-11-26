@@ -1,28 +1,47 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="rest.css">
+    <link rel="stylesheet" type="text/css" href="../rest.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
     <title>Retorik - Tankestallaren
     </title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
     <link rel="icon" href="https://i.imgur.com/VvjR3im.jpg?3">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js" type="text/javascript"></script>
     
   </head>
 
   <body>
-    <div >
+       <div class="popup-call-contact" style="color: black" >
+  <form class="form" action="https://formspree.io/anders@tankestallaren.se" method="POST">
+    <label for="namn">Namn</label>
+    <input id="namn" name="namn" type="text" placeholder="Namn" />
+    <label for="email">E-postadress</label>
+    <input id="email" name="e-post" type="email" placeholder="E-post" />
+    <label for="meddelande">Meddelande</label>
+    <textarea id="meddelande" name="meddelande" id="" placeholder="Meddelande"></textarea>
+    <input type="submit" value="Skicka!" />
+  </form>
+  <div class="popup-text">
+    <h2>Kontakta mig</h2>
+    <p style="text-align: left;">Under normala förhållanden svarar jag inom 24 timmar om du skriver här. Önskar du hellre att ringa kan du nå mig på (+46)701710819.</p>
+    <span class="close-contact"></span>
+ 
+</div>
+</div>
+    
   <header>
     <div  class="container">
     <div class="row">
-      <a href="index.html"><img id="bulb" src="https://i.imgur.com/mbw7uUd.png?1"/></a>
+      <a href="../index.html"><img id="bulb" src="https://i.imgur.com/mbw7uUd.png?1"/></a>
       <h1 class="col-sm-8"></h1>
       <nav class="col-sm-4" style="margin-top: 0.2em">
-        <a href="index.html"><p class="btn-nav" style="opacity: 0.65">Hem</p></a>
-        <a href="kontakt.html"><p class="btn-nav" style="opacity: 0.65;">Om mig</p></a>
+        <a href="../index.html"><button class="btn btn-nav" style="opacity: 0.65">Hem</button></a>
+        <a href="../om-mig.html"><button class="btn btn-nav" style="opacity: 0.65;">Om mig</button></a>
 <div class ="dropdown">
-        <a href="kurser.html" alt="Hem"><p class="dropbtn btn-nav " id="kurs" style="margin-bottom: 0;
-  border-bottom: 4px solid black;">Kurser&#9662</p></a>
+        <a href="../kurser.html" alt="Hem"><button class="btn dropbtn btn-nav " id="kurs" style="margin-bottom: 0;
+  border-bottom: 4px solid black;">Kurser &#9662</button></a>
         <div class="dropdown-content">
 
     <a href="argumentationsanalys.html">Argumentationsanalys</a>
@@ -34,8 +53,8 @@
     <a href="pedagogik.html" style="margin-bottom:0.2em"><strong>Pedagogik</strong></a>
   </div>
 </div>      
-        <a href="boka.html"><p class="btn-nav" id="kurs" style="opacity: 0.65;">Boka</p></a>
-        <a href="blogg.html"><p class="btn-nav" style="opacity: 0.65;">Blogg</p></a>
+        <a href="../boka.html"><button class="btn btn-nav" id="kurs" style="opacity: 0.65;">Boka</button></a>
+        <a href="../blogg.html"><button class="btn btn-nav" style="opacity: 0.65;">Blogg</button></a>
       </nav>
     </div>
   </div>
@@ -51,34 +70,29 @@
   <section class="container">
     <div class="row">
 
-      <div class="col-sm-3">
-        <img  src="https://i.imgur.com/m07qSxo.jpg">
+      <div class="col-sm-offset-8 col-sm-4" >
+        <img src="https://images.unsplash.com/photo-1474631245212-32dc3c8310c6?auto=format&fit=crop&w=1224&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D">
       </div>
-      <div class="col-sm-9">
-        <ul>
-
-<li>Väga olika perspektiv kring sakfrågan<br></li>
-<li>Välja det lämpligaste budskapet utifrån ditt syfte<br></li>
-<li>Utforma budskapet så att det är anpassat till situationen du kommunicerar i</li>
-<li>Vara trovärdig inför dem du ska övertyga<br><br></li>
-        </ul>
-    </div>
+      
     </div>
       <div class="col-sm-12 gladtext" style="border-top: 3px double rgb(114, 76, 63); padding-top: 2.5em">
         
         <p>Uppdateras snart<br><br><br><br><br><br><br><br><br><br>
 </p>
 </div>
-  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script  src="../js/index.js"></script>
+      <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js'></script>
 <script src='http://cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.4.5/js/bootstrapvalidator.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'></script>
 
     
     <script> $(window).scroll(function(){
     $(".text-center").css("opacity", 1 - $(window).scrollTop() / 250);
   }); </script>
 <div class="col-sm-12">
-<a href="boka.html"><p class="btn bokis">Boka nu</p></a>
+<a href="../kurser.html"><p class="btn btn-info bokis">Tillbaka</p></a>
 </div>
 </div>
   </section>
@@ -87,8 +101,9 @@
     <div class="row">
       <p class="col-sm-4 yaash">&copy; 2017 Tankeställaren</p>
       <ul class="col-sm-8">
-        <li class="col-sm-1">
-          <a href="mailto:anders@tankestallaren.se"><img src="https://i.imgur.com/l1PGl8V.png"></a>
+        <li class="col-sm-1 ">
+          <a class="click-popup-call-contact"><img style="cursor: pointer" src="https://i.imgur.com/l1PGl8V.png"></a>
+
         </li>
         <li class="col-sm-1">
           <a href="https://www.facebook.com/Tankest%C3%A4llaren-497534710302854/" target="_blank"><img src="https://i.imgur.com/vHgxQP7.png"></a>
