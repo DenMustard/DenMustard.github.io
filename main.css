@@ -1,7 +1,7 @@
 * {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
   margin: 0;
   padding: 0;
 }
@@ -51,6 +51,10 @@ button:active { border-style: outset!important;}
   text-decoration: none;
 }
 
+.col-sm-4 {
+  width: auto;
+}
+
 
 .col-sm-8 {
   margin-left: 0.2em;
@@ -61,7 +65,7 @@ header .row,
 footer .row {
   display: flex;
 
-  align-items: center;
+  
 }
 
 header h1 {
@@ -140,13 +144,56 @@ header p {
   color: #fff;
 }
 
-
-
-
-section .row img {
-  margin: 0 0 30px;
-  width: 100%;
+#main {
+  padding-right: 0.5em;
+  padding-bottom: 1.5em;
 }
+#main1,#main2,#main3,#main4,#main5 {
+  overflow: hidden;
+  border:1px solid #333;
+}
+#main1:hover,#main2:hover,#main3:hover,#main4:hover,#main5:hover {
+  
+}
+
+.imgdiv {
+  box-sizing: border-box;
+  height: auto;
+  
+  background-color: transparent;
+  overflow: hidden;
+  
+  max-width:100%;
+  
+  padding-right: 5em;
+  
+
+}
+.imgdiv p {
+  font-size: 1em;
+  color: black;
+  text-align: center;
+  
+  
+}
+
+.imgdiv img {
+  font-size: 6vh;
+  width: 100%;
+  -moz-transition: all 0.6s;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+  -moz-transform: scale(1.02);
+  -webkit-transform: scale(1.02);
+  transform: scale(1.02);
+}
+.imgdiv img:hover  {
+  -moz-transform: scale(1.12);
+  -webkit-transform: scale(1.12);
+  transform: scale(1.12);
+
+}
+
 
 .btn-nav {
   border-radius: 0;
@@ -160,13 +207,17 @@ section .row img {
   color: rgb(140,140,140);
 }
 
+.footerkontakt {
+  margin-right: -1.67em;
+}
+
 
   .col-sm-12 a .lasis {
   font-family: "Roboto";
-  font-size: 1.8em;
+  font-size: 1.4em;
   display: inline-flex;
   white-space: nowrap;
-  color:black;
+  color:white;
   margin-top: 1em;
   }
 
@@ -253,18 +304,18 @@ button:focus {outline:0;}
 
 #main {
   font-family: "Georgia";
-  color: black;
+  
   font-size: 2em;
-  text-align: center;
+  
 
 
-  -webkit-transition: opacity 0.3s;
-  transition: 0.3s;
+  
+}
+.container {
+  padding: 0;
+  margin:0;
 }
 
-#main:hover {
-  opacity: 0.9;
-}
 
 .second-row {
   

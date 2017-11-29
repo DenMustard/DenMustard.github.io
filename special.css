@@ -35,6 +35,10 @@ button:focus {outline:0!important;}
 
 }
 
+.footerkontakt {
+  margin-right: -1.67em;
+}
+
 .info img {
   border: 1px solid black;
   border-radius: 7px;
