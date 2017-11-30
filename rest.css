@@ -23,6 +23,21 @@ header {
 #success_message { 
   display: none;
 }
+.blur {
+  opacity:1;
+
+  transition: 0.5s ease all;
+}
+.blur-blur {
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+  
+  transform:scale(1);
+  transition: 0.5s ease all;
+}
 
 .col-sm-8 {
   margin-left: 0.2em;
@@ -458,6 +473,7 @@ footer li img {
   clear:both;
   height:50%;
   width:60%;
+  border:2px solid gray;
   padding:15px;
   left:0;
   right:0;

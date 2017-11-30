@@ -8,6 +8,20 @@ $(document).ready(function(){
   $('.close-contact').on('click', function(){
     $('.popup-call-contact').toggleClass('popup-call-contact-show');
   });
+  
+});
+
+$(document).ready(function(){
+  $('.click-popup-call-contact').on('click', function(){
+    $('.blur').toggleClass('blur-blur');
+  });
+});
+
+$(document).ready(function(){
+  $('.close-contact').on('click', function(){
+    $('.blur').toggleClass('blur-blur');
+  });
+  
 });
 
 function validate(evt) {

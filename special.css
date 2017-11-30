@@ -26,6 +26,21 @@ button:focus {outline:0!important;}
  
 
 }
+.blur {
+  opacity:1;
+
+  transition: 0.5s ease all;
+}
+.blur-blur {
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+  
+  transform:scale(1);
+  transition: 0.5s ease all;
+}
 
 .info .col-sm-8 {
     font-family: "Roboto";
@@ -291,6 +306,7 @@ footer li img {
   z-index:9999;
   margin:auto;
   clear:both;
+  border:2px solid gray;
   height:50%;
   width:60%;
   padding:15px;
