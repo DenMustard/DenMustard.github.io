@@ -19,21 +19,27 @@ body {
 header {
   padding: 20px 0;
 }
-.blur {
-  opacity:1;
-
+.blur-not {
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
   transition: 0.5s ease all;
-}
-.blur-blur {
-  -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(5px);
-  filter: blur(5px);
   
-  transform:scale(1);
-  transition: 0.5s ease all;
+  
 }
+.blur-filter {
+  -webkit-filter: contrast(80%);
+  -moz-filter: contrast(80%);
+  -o-filter: contrast(80%);
+  -ms-filter: contrast(80%);
+  filter: contrast(80%);
+  transition: 0.5s ease all;
+  opacity: 0.7;
+  
+  }
+
 
 button:focus {outline:0!important;}
 

@@ -1,28 +1,20 @@
+
 $(document).ready(function(){
   $('.click-popup-call-contact').on('click', function(){
     $('.popup-call-contact').toggleClass('popup-call-contact-show');
+    $('.blur-not').toggleClass('blur-filter');
   });
 });
 
 $(document).ready(function(){
   $('.close-contact').on('click', function(){
     $('.popup-call-contact').toggleClass('popup-call-contact-show');
+    $(".blur-not").toggleClass("blur-filter");
   });
   
 });
 
-$(document).ready(function(){
-  $('.click-popup-call-contact').on('click', function(){
-    $('.blur').toggleClass('blur-blur');
-  });
-});
 
-$(document).ready(function(){
-  $('.close-contact').on('click', function(){
-    $('.blur').toggleClass('blur-blur');
-  });
-  
-});
 
 function validate(evt) {
   var theEvent = evt || window.event;
