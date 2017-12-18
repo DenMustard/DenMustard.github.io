@@ -1,4 +1,13 @@
 
+// When the DOM is ready, run this function
+$(document).ready(function() {
+  //Set the carousel options
+  $('#quote-carousel').carousel({
+    pause: true,
+    interval: 8000,
+  });
+});
+
 $(document).ready(function(){
   $('.click-popup-call-contact').on('click', function(){
     $('.popup-call-contact').toggleClass('popup-call-contact-show');
