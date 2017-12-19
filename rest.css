@@ -34,16 +34,15 @@ header {
   
 }
 .blur-filter {
-  -webkit-filter: contrast(80%);
-  -moz-filter: contrast(80%);
-  -o-filter: contrast(80%);
-  -ms-filter: contrast(80%);
-  filter: contrast(80%);
-  transition: 0.5s ease all;
-  opacity: 0.7;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 998;
   
   }
-}
 
 .col-sm-8 {
   margin-left: 0.2em;
