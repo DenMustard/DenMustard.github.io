@@ -391,7 +391,7 @@ footer li img {
   z-index:9999;
   margin:auto;
   clear:both;
-  height:50%;
+  max-height:450px;
   width:60%;
   padding:15px;
   border:2px solid gray;
@@ -415,6 +415,7 @@ footer li img {
   position: relative;
   display: inline-block;
   font-family: 'Roboto';
+  height:auto;
 }
 .close-contact:before{
   content: '✕';
