@@ -36,6 +36,14 @@ button:focus {outline:0!important;}
   
   
 }
+.webmaster {
+  font-size: 0.8em;
+  background-color: orange;
+  
+  margin-left:auto;
+  margin-right:auto;
+  border-radius: 15px;
+}
 .blur-filter {
   background: rgba(0, 0, 0, 0.5);
   position: fixed;
@@ -166,14 +174,14 @@ header p {
   box-sizing: border-box;
 }
 
-.col-sm-12 {
+.col-sm-12, .col-sm-7 {
     font-family: "Roboto";
     font-size: 1.8em;
     border-top: 3px double #742e25;
     padding-top: 1em;
 }
 
-.col-sm-12 h2 {
+.col-sm-12 h2, .col-sm-7 h2 {
   font-weight: bold;
   font-size: 1.1em;
 }
