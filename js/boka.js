@@ -70,7 +70,7 @@ $(document).ready(function() {
                      stringLength: {
                         min: 9,
                         max: 10,
-                        message:'Vänligen fyll i ett giltigt telefonnummer'
+                        message:'Vänligen fyll i ett giltigt telefonnummer (012 234 567 89)'
                     },
                     notEmpty: {
                         message: 'Vänligen fyll i ditt telefonnummer'
@@ -98,7 +98,7 @@ $(document).ready(function() {
             kurs: {
                 validators: {
                     notEmpty: {
-                        message: 'Vänligen välj den kurs du är intresserad i'
+                        message: 'Vänligen välj den kurs du är intresserad av'
                     }
                 }
             },
