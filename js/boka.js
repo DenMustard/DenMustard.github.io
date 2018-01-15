@@ -117,8 +117,8 @@ $(document).ready(function() {
                 validators: {
                       stringLength: {
                         min: 1,
-                        max: 200,
-                        message:'Vänligen skriv inte fler än 200 tecken'
+                        max: 500,
+                        message:'Vänligen skriv inte fler än 500 tecken'
                     },
                     }
                 }
