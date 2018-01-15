@@ -394,7 +394,9 @@ footer li img {
   max-height:450px;
   width:60%;
   padding:15px;
-  border:2px solid gray;
+  border: 1px solid black;
+  
+
   left:0;
   right:0;
   top:0;
@@ -409,6 +411,9 @@ footer li img {
   opacity:1;
   transform:scale(1);
   transition: 0.5s ease all;
+  -webkit-box-shadow: 10px 10px 10px black;
+  -moz-box-shadow: 10px 10px 10px black;
+  box-shadow: 10px 10px 10px black;
 }
 
 .popup-all {

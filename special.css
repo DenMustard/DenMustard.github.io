@@ -338,6 +338,9 @@ footer li img {
   opacity:1;
   transform:scale(1);
   transition: 0.5s ease all;
+  -webkit-box-shadow: 10px 10px 10px black;
+  -moz-box-shadow: 10px 10px 10px black;
+  box-shadow: 10px 10px 10px black;
 }
 
 .popup-all {
