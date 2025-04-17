@@ -3,7 +3,7 @@
 // Subject of email sent to you.
 $subject = 'Bokning Tankeställaren';
 // Your email address. This is where the form information will be sent.
-$emailadd = 'jonatan.ullholm@gmail.com';
+$emailadd = 'anders.ullholm@gmail.com';
 // From email address. This is who the form information will be sent from.
 $email_from = $_POST['email'];
 // Where to redirect after form is processed.
